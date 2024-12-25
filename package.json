@@ -1,0 +1,29 @@
+{
+    "name": "egs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "egg-bin dev"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@graphql-tools/utils": "^10.6.4",
+        "egg": "^3.29.0",
+        "egg-cors": "^3.0.1",
+        "graphql": "^16.10.0",
+        "graphql-yoga": "^5.10.8"
+    },
+    "devDependencies": {
+        "@eggjs/tsconfig": "^1.3.3",
+        "@types/node": "*",
+        "egg-bin": "^6.13.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2"
+    },
+    "egg": {
+        "typescript": true
+    }
+}
